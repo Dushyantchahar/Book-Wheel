@@ -4,11 +4,11 @@ A Bus Seat Booking Website
 ## Steps to Follow:-
 
 - Clone the repository.
-  # On Client:
+  ### On Client:
 - cd client
 - Install the dependencies by running `npm install --legacy-peer-deps`.
 - Run the project by running `npm start`.
-  # On Server:
+  ### On Server:
 - cd server
 - Install the dependencies by running `npm install --legacy-peer-deps`.
 - Run the project by running `npm start`.
