@@ -5,21 +5,35 @@ A Bus Seat Booking Website
 
 - Clone the repository.
   # On Client:
+- cd client
 - Install the dependencies by running `npm install --legacy-peer-deps`.
 - Run the project by running `npm start`.
   # On Server:
+- cd server
 - Install the dependencies by running `npm install --legacy-peer-deps`.
 - Run the project by running `npm start`.
 
-## Stack
+## Technologies Used
 
 Summary of what the stack looks like now including a picture with the core tech:
 
-* **Front-end** - React.js as the core framework, Razorpay for payment integration, Email API for sending OTPs, and MongoDB Compass for database management. The front-end includes login and sign-up pages with email-based authentication.
+* **Front-end** -React.js: Core framework for building the user interface.
+                -Razorpay: Integration for handling payment processing.
+                -Email API: Used for sending OTPs (One-Time Passwords) to users for verification.
+                -MongoDB Compass: Database management tool for MongoDB.
+                -Custom Authentication: Login and sign-up pages with email-based authentication.
+* **Data** -Node.js: Runtime environment for executing JavaScript on the server.
+           -Express: Web application framework for building RESTful APIs.
 * **Data** - All data is modeled and stored in MongoDB using MongoDB Compass. Node.js and Express are the core technologies for the backend services.
-* **API** -The backend is managed using Node.js and Express, providing RESTful APIs to interact with various services. This includes the payment API using Razorpay for external payment processing and the Email API for OTP verification.
+* **API** -RESTful APIs: Managed using Node.js and Express to handle interactions between the front-end and back-end services.
+          -Payment API: Razorpay is used to demonstrate an external payment provider integration.
+          -Email API: Used to send OTPs to users for email verification during the login and sign-up process.
 * **Auth** -Authentication and authorization are managed through custom implementations in Node.js and Express, with email-based login and sign-up functionality.
-* **Messaging** -Service-to-service communication and workflow management are handled by custom implementations within the Node.js and Express environment, leveraging appropriate messaging services.
+* **Messaging** -Service-to-Service Communication and Workflow Management: Handled by custom implementations within the Node.js and Express environment, leveraging appropriate messaging services.
 
+### Prerequisites
+- Node.js (v14.x or later)
+- MongoDB (v4.x or later)
+- NPM (v6.x or later)
   
 
