@@ -1,0 +1,57 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:8000/",
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@mui/material": "^5.13.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "caniuse-lite": "^1.0.30001624",
+    "font-awesome-icons": "^1.6.0",
+    "http-proxy-middleware": "^2.0.6",
+    "js-react-utils": "^0.0.85",
+    "jwt-decode": "^3.1.2",
+    "mdb-react-ui-kit": "^6.0.0",
+    "razorpay": "^2.9.4",
+    "react": "^18.2.0",
+    "react-checkmark": "^2.0.0",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.62.1",
+    "utils": "^0.3.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "npx update-browserslist-db@latest --legacy-peer-deps"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

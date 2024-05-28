@@ -1,0 +1,16 @@
+.confirmbox{
+    background-color: aliceblue;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    width: 50rem;
+    height: 30rem;
+  /* border: 1px solid rgb(25, 25, 208); */
+  border-radius: 15px;
+
+  box-shadow: 10px 10px 2px #3072eb;
+
+}
+.head{
+    margin-top: 3rem;
+}

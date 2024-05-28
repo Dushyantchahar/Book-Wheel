@@ -1,0 +1,8 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-toggler-icon{
+  background-color:rgb(209, 209, 65);
+    
+}

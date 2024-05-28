@@ -1,0 +1,33 @@
+h6{
+    margin-bottom: 0;
+}
+.col-1{
+    margin-left: 0;
+}
+.dot{
+    height: px;
+}
+.arrow{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.designbuttton{
+    background-color: rgb(87, 156, 245);
+    border-radius: 10px;
+    color:white;
+    border: 1px solid rgb(72, 143, 237);
+}
+.designbuttton:hover{
+    background-color: rgb(9, 106, 233);
+    
+}
+.selectborder{
+    border-radius: 10px;
+border: 1px solid rgb(14, 109, 234);
+margin: 3px;
+align-items: center;
+}
+.selectbus{
+    font-size: 30px;
+    font-weight: 700;
+}

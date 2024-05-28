@@ -1,0 +1,101 @@
+.ms-1 {
+  margin-left:400px !important;
+  margin-top:30px;
+  /* border-radius: red; */
+}
+.container{
+  margin-top: 30px;
+}
+.signbox{
+  margin-top: 7rem;
+}
+.error{
+  color: #af0c0c;
+	background-color: #ffe0e0;
+	padding: 8px;
+  display: none;
+}
+.contain{
+  border: 1px solid rgb(25, 25, 208);
+  /* border-color: black; */
+}
+.loginboxx {
+margin-top: 7rem;
+}
+button{
+  padding-left: 2.5rem; 
+  padding-right: 2.5rem;
+}
+.nav1{
+  background-color: transparent;
+  /* background-color: rgb(168, 173, 5); */
+  /* opacity: 0.5; */
+  /* background-color: rgba(51, 71, 200, 0.8);  */
+
+}
+.btn.btn-primary{
+  background-color: #3072eb;
+  color: #f9f6f6;
+}
+
+.nav-item a:hover{
+  color:rgb(209, 209, 65);
+font-weight: 400;
+  font-size: 19px;
+  cursor: pointer;
+}
+.navbar {
+  overflow: hidden;
+  /* background-color: #333; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.active{
+  color:rgb(209, 209, 65);
+
+}
+
+.nav-item a{
+  text-decoration: none;
+  margin: 5px;
+padding: 8px;
+}
+.Loginbox{
+  /* height: 50%; */
+  background-color: white;
+    margin: 20px auto;
+    /* padding: 30px 25px; */
+    max-width: 800px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 2px #3072eb;
+    margin-top: 7rem;
+}
+button.loginbutton{
+  width:50% ;
+ 
+}
+.text-black{
+  border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 2px #3072eb;
+}
+.navbar-brand img{
+  /* margin: 0px; */
+  height: 40px;
+  width: 120px;
+}
+button.signupbutton {
+  /* background-color:   #f5eb27; */
+  width:8rem;
+
+}
+button.signupbutton:hover{
+
+  transform: scale(1.1);
+
+
+}

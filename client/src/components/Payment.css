@@ -1,0 +1,143 @@
+.paym {
+    /* border:1px solid white; */
+    height: auto;
+    background-color:white;
+    width: 30%;
+    margin-top: 6%;
+    margin-left: 36%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px #3072eb;
+    border-radius: 15px;
+
+}
+#form-id{
+    /* display: none; */
+}
+.payhead{
+    text-align: center;
+}
+.App-payment {
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 5px;
+    margin-bottom:20px;
+    padding-bottom:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.h3{
+    margin-left :32px;
+}
+.detail{
+    margin-left :32px;
+
+}
+.credit-form {
+    margin-top: 31px;
+    max-width: 400px;
+    margin-right: 19px;
+   
+}
+.form-group{
+    text-align: center;
+    margin-top: 6px;
+}
+.actionButton {
+    margin-top: 15px;
+}
+
+.frm-ctrl {
+    border-radius: 5px;
+    width: 80%;
+    height: 38px;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+.cl1 {
+    float: left;
+    width: 60%;
+}
+
+.columnTwo {
+    float: right;
+    width: 54%;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    margin-left: 43px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.603);
+    height: fit-content;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom:20px;
+}
+
+.btCustom {
+    width: 20%;
+    /* margin-left: -70px; */
+  /* background-color: #3072eb; */
+  background-color: rgb(87, 156, 245);
+
+  color: #f9f6f6;
+
+}
+.btCustom:hover{
+    background-color: rgb(9, 106, 233);
+    color: #f9f6f6;
+
+}
+.centerbutton{
+    display: flex;
+  justify-content: center;
+  /* width: 30%; */
+}
+.pPayment {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.cvc {
+    width: 57px;
+    margin-left: 27px;
+    text-align: center;
+}
+
+.pt{
+    padding-left:0;
+}
+.usrName{
+    text-transform: capitalize;
+}
+
+.hdng{
+    font-weight: bold;
+}
+
+.hr1{
+    background-color: black;
+    width:38%;
+    position:absolute;
+    left:51%;
+    top:37%;
+    
+}
+.hr2{
+    background-color: black;
+    width:38%;
+    position:absolute;
+    left:51%;
+    top:55%;
+}
+
+.hr3{
+    background-color: rgba(94, 91, 91, 0.685);
+}
+.myform{
+    display:none;
+}
