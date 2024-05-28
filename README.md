@@ -1,8 +1,6 @@
 # Book-Wheel
 A Bus Seat Booking Website 
-
 ## Steps to Follow:-
-
 - Clone the repository.
   ### On Client:
 - cd client
@@ -14,9 +12,7 @@ A Bus Seat Booking Website
 - Run the project by running `npm start`.
 
 ## Technologies Used
-
 Summary of what the stack looks like now including a picture with the core tech:
-
 * **Front-end** -React.js: Core framework for building the user interface.
                 -Razorpay: Integration for handling payment processing.
                 -Email API: Used for sending OTPs (One-Time Passwords) to users for verification.
