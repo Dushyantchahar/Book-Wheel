@@ -56,17 +56,17 @@ router.post('/signin',async(req,res)=>{
         const userLogin = await User.findOne({email:email});
         if(userLogin){
             const isMatch =await bcrypt.compare(password,userLogin.password);
-    console.log("h3");
+   
 
             token = await userLogin.generateAuthToken();
-console.log(token);
-console.log("h4");
+// console.log(token);
+
 
             res.cookie("jwtoken",token,{
                 expires:new Date(Date.now()+25892000000),
                 httpOnly:true
             });
-    console.log("h5");
+    
             
         
             if(!isMatch){
@@ -113,7 +113,7 @@ router.get('/user', async (req, res) => {
 
 // Authentication
 router.get('/profile',authenticate,(req,res)=>{
-    console.log("kkkkkkkkkkk");
+   
     res.send(req.rootUser);
 });
 
@@ -127,8 +127,8 @@ router.get('/logout',(req,res)=>{
 router.post("/orders", async(req, res)=> {
     try {
     const razorpay = new Razorpay({
-    key_id:'Razorpay_ID',
-    key_secret:'Razorpay_Secret',
+    key_id:'rzp_test_7Zj7q3hZcqGAV8',
+    key_secret:'x8BWu6VP2zyzSPHUDU1qHQhH',
     });
     const options = req.body;
     const order = await razorpay.orders.create(options);
