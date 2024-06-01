@@ -164,7 +164,7 @@ localStorage.setItem("bus","RAJ KALPANA TRAVELS PVT.LTD")
                                      </div>
                                      <div className='col-4'>
                                      <div className='row'>
-                                    <h6>  RAJ KALPANA TRAVELS PVT.LTD</h6>
+                                    <h6>  RAJ KALPANA S PVT.LTD</h6>
                                     </div>
                                     <div className='row'>
                                         <em>AC Sleeper</em>

@@ -61,7 +61,7 @@ export default function Paymenttab() {
       key: 'rzp_test_7Zj7q3hZcqGAV8', // Enter the Key ID generated from the Dashboard
       amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       currency,
-      name: 'Travel Buddy', // your business name
+      name: 'Book Wheel', // your business name
       description: 'Test Transaction',
       image: { logo },
       order_id: order.id, // This is a sample Order ID. Pass the `id` obtained in the response of Step 1
@@ -96,7 +96,7 @@ export default function Paymenttab() {
   let retString = localStorage.getItem('nameData');
   let retArray = JSON.parse(retString);
   const size = retArray.length;
-  const info1 = 'Thank you for using the TRAVEL BUDDY. We\'ve successfully booked your seats.';
+  const info1 = 'Thank you for using the Book Wheel. We\'ve successfully booked your seats.';
 
   const form = useRef();
   const sendEmail = () => {
@@ -117,7 +117,7 @@ export default function Paymenttab() {
     <div className='paym'>
       <div className='col'>
         <div className='payhead'>
-          <h3 className='h3'> Travel Buddy </h3>
+          <h3 className='h3'> Book Wheel </h3>
           <p className='detail'> BOOKING DETAILS </p>
         </div>
         <div className='row'>
