@@ -23,9 +23,9 @@ var code=''
   // const codegene=()=>{
   var val = Math.floor(1000 + Math.random() * 9000);
  code=val;
-console.log(code);
+// console.log(code);
 // }
-const message="Thank you for using the TRAVEL BUDDY."+" "+"Your Confirmation code is "+code;
+const message="Thank you for using the BOOK WHEEL."+" "+"Your Confirmation code is "+code;
 
 const form = useRef();
     const Email=async(e)=>{
@@ -79,7 +79,7 @@ const form = useRef();
             return false;
          }
            if(user.mobile.trim() === ""){
-            console.log(user.mobile.trim().length);
+            // console.log(user.mobile.trim().length);
             document.getElementById("mobile-error").innerHTML = "Please enter phone number";
             document.getElementById("mobile-error").style.display = "block";
             // e.preventDefault();
@@ -109,12 +109,12 @@ const form = useRef();
 if(!res.ok){
 
     window.alert(" This Email Already Registered");
-    console.log("Invalid Registration");
+    // console.log("Invalid Registration");
 }
  else{
 
     window.alert(" Registration Sucess");
-    console.log(" Registration Sucess");
+    // console.log(" Registration Sucess");
 navigate("/login");
  }
 }

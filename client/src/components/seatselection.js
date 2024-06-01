@@ -54,8 +54,8 @@ const navigate=useNavigate();
         
         localStorage.setItem("reservedSeats", string1)
         localStorage.setItem("nameData",string2)
-        console.log(name)
-        console.log(gender)
+        // console.log(name)
+        // console.log(gender)
         navigate('/paymenttab')
     }
 

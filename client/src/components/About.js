@@ -1,7 +1,6 @@
 import React from "react";
 import { FaFacebook, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import './About.css'
-import navbar from './Navbar'
 const About = () => {
 
     return (<>
@@ -12,7 +11,7 @@ const About = () => {
                 <div className="row h-100 align-items-center py-5">
                     <div className="col-lg-6">
                         <h1 className="display-4">About us page</h1>
-                        <p className="lead text-muted mb-0">At <b>Travel Buddy</b>, we strive to provide you with a seamless and convenient bus booking experience. Our platform is designed to simplify the process of finding and reserving bus tickets, ensuring that you can easily plan your journey with just a few clicks.</p>
+                        <p className="lead text-muted mb-0">At <b>Book Wheel</b>, we strive to provide you with a seamless and convenient bus booking experience. Our platform is designed to simplify the process of finding and reserving bus tickets, ensuring that you can easily plan your journey with just a few clicks.</p>
                         
                     </div>
                     <div className="col-lg-6 d-none d-lg-block"><img src="https://bootstrapious.com/i/snippets/sn-about/illus.png" alt="" className="img-fluid" /></div>

@@ -127,8 +127,8 @@ router.get('/logout',(req,res)=>{
 router.post("/orders", async(req, res)=> {
     try {
     const razorpay = new Razorpay({
-    key_id:'rzp_test_7Zj7q3hZcqGAV8',
-    key_secret:'x8BWu6VP2zyzSPHUDU1qHQhH',
+    key_id:'Razorpay_ID',
+    key_secret:'Razorpay_Secret',
     });
     const options = req.body;
     const order = await razorpay.orders.create(options);

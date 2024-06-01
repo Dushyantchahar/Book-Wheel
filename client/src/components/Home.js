@@ -28,7 +28,7 @@ import { useNavigate } from "react-router-dom";
         <div className="row buttonstart">
 <button onClick={Handle}className="">Get Started</button>
         </div>
-        <div className="row social">
+        {/* <div className="row social">
        
             <div className="container">
                 <div className="row number" >
@@ -55,7 +55,7 @@ import { useNavigate } from "react-router-dom";
                 </div>
                 </div>
         
-        </div>
+        </div> */}
         </div>
 </div>
        </div>
